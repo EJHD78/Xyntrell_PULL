@@ -1,0 +1,15 @@
+endpoints:
+  # Core CRM
+  - candidates
+  - contacts
+  - companies
+  - jobs
+
+  # Activities & workflow
+  - notes
+  - tasks
+  - meetings
+
+  # Recruitment pipeline
+  - applications
+  - stages
