@@ -1,0 +1,75 @@
+employees:
+  - Id
+  - EmployeeNumber
+  - FirstName
+  - LastName
+  - DepartmentId
+  - CostCenterId
+  - CostUnitId
+  - StartDate
+  - EndDate
+
+employeecontracts:
+  - Id
+  - EmployeeId
+  - ContractType
+  - StartDate
+  - EndDate
+  - FTE
+
+employeepersonalinfo:
+  - Id
+  - EmployeeId
+  - Gender
+  - BirthDate
+  - Nationality
+
+employeepayrollinfo:
+  - Id
+  - EmployeeId
+  - SalaryType
+  - SalaryAmount
+  - SalaryScale
+  - SalaryStep
+
+departments:
+  - Id
+  - Code
+  - Description
+
+costcenters:
+  - Id
+  - Code
+  - Description
+
+costunits:
+  - Id
+  - Code
+  - Description
+
+salarydocuments:
+  - Id
+  - EmployeeId
+  - DocumentType
+  - Period
+  - Year
+
+salaryruns:
+  - Id
+  - RunNumber
+  - Period
+  - Year
+  - Status
+
+salaryrunresults:
+  - Id
+  - RunId
+  - EmployeeId
+  - GrossSalary
+  - NetSalary
+
+companies:
+  - Id
+  - Name
+  - ChamberOfCommerceNumber
+  - Industry
