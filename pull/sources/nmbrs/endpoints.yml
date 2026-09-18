@@ -1,0 +1,19 @@
+endpoints:
+  # Employees
+  - employees
+  - employeecontracts
+  - employeepersonalinfo
+  - employeepayrollinfo
+
+  # Departments & cost structure
+  - departments
+  - costcenters
+  - costunits
+
+  # Salaries & payroll runs
+  - salarydocuments
+  - salaryruns
+  - salaryrunresults
+
+  # Companies
+  - companies
