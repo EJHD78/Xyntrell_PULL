@@ -1,0 +1,20 @@
+endpoints:
+  # CRM
+  - crm/Accounts
+  - crm/Contacts
+
+  # Financial
+  - financial/GLAccounts
+  - financial/CostCenters
+  - financial/CostUnits
+
+  # HRM
+  - hrm/Employees
+
+  # Sales
+  - sales/QuotationLines
+  - sales/Quotations
+
+  # Logistics
+  - logistics/Items
+  - logistics/StockPositions
