@@ -1,0 +1,17 @@
+load:
+  file_format: parquet
+  partitioning: none
+
+  # Output path convention:
+  # bronze/recruitcrm/<endpoint>.parquet
+  output_path_template: "bronze/recruitcrm/{endpoint}.parquet"
+
+  api:
+    base_url: "https://api.recruitcrm.io/v1"
+    authentication: "api_key"
+    rate_limit: "respect-source-defaults"
+
+  extractor:
+    mode: "full"                # reset loads allowed this sprint
+    endpoint_source: "endpoints.yml"
+    field_source: "fields.yml"
