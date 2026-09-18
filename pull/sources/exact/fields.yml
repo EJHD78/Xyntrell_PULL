@@ -1,0 +1,70 @@
+crm/Accounts:
+  - ID
+  - Code
+  - Name
+  - Email
+  - Status
+  - IsCustomer
+  - IsSupplier
+  - VATNumber
+
+crm/Contacts:
+  - ID
+  - AccountID
+  - FirstName
+  - LastName
+  - Email
+  - Phone
+
+financial/GLAccounts:
+  - ID
+  - Code
+  - Description
+  - Type
+  - Status
+
+financial/CostCenters:
+  - ID
+  - Code
+  - Description
+
+financial/CostUnits:
+  - ID
+  - Code
+  - Description
+
+hrm/Employees:
+  - ID
+  - FirstName
+  - LastName
+  - EmployeeNumber
+  - Department
+  - CostCenter
+
+sales/Quotations:
+  - ID
+  - QuotationDate
+  - AccountID
+  - AmountFC
+  - Status
+
+sales/QuotationLines:
+  - ID
+  - QuotationID
+  - ItemID
+  - Quantity
+  - PriceFC
+
+logistics/Items:
+  - ID
+  - Code
+  - Description
+  - IsSalesItem
+  - IsPurchaseItem
+
+logistics/StockPositions:
+  - ID
+  - ItemID
+  - WarehouseID
+  - InStock
+  - Reserved
